@@ -1,6 +1,8 @@
+import Control.Concurrent (threadDelay)
 main = do
         l <- readInts
         print (scoreTable l i  ++ show (pointCounter l i))
+        threadDelay 10000000
 
 
 
